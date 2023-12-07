@@ -67,3 +67,39 @@ nav .menu li a.active {
     text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
+.container {
+    position: relative;
+}
+
+.imagem-sobreposta {
+    position: absolute;
+    top: 44%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 326px;
+}
+
+.bar {
+    width: 95%;
+    height: 485px;
+    background-image: url("img/barbiefotobarra.png");
+    background-size: cover; 
+    background-position: center; 
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 50px;
+}
+
+.texto-na-barra {
+    color: #ffffff;
+    margin-right: 55%;
+    font-size: 35px;
+    text-shadow: -1.5px 0 #f009a2, 0 1.5px #f009a2, 1.5px 0 #f009a2, 0 -1.5px #f009a2;
+}
+
+
+
+
