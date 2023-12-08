@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Playpen+Sans&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body,
 html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Playpen Sans", sans-serif;
-  background-color: #fbfbfb;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Playpen Sans", sans-serif;
+    background-color: #fbfbfb;
 }
 
 nav {
@@ -47,7 +48,7 @@ nav .menu li {
 }
 
 nav .menu li a {
-    color:white;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 8px 15px;
@@ -63,7 +64,7 @@ nav .menu li a.active {
     border-radius: 15px;
     padding: 5px 30px;
     background-color: white;
-    color:#f009a2;
+    color: #f009a2;
     text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
@@ -83,23 +84,108 @@ nav .menu li a.active {
 .bar {
     width: 95%;
     height: 485px;
-    background-image: url("img/barbiefotobarra.png");
-    background-size: cover; 
-    background-position: center; 
+    background-image: url("img/fotobarbie4k.jpg");
+    background-size: cover;
+    background-position: center;
     margin: 80px auto;
     display: flex;
     align-items: center;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     padding-right: 50px;
 }
 
 .texto-na-barra {
+    font-family: "Jost", sans-serif;
     color: #ffffff;
-    margin-right: 55%;
+    margin-right: 0%;
     font-size: 35px;
-    text-shadow: -1.5px 0 #f009a2, 0 1.5px #f009a2, 1.5px 0 #f009a2, 0 -1.5px #f009a2;
+    text-shadow: -1.5px 0 #3abcfe, 0 1.5px #3abcfe, 1.5px 0 #3abcfe, 0 -1.5px #3abcfe;
 }
 
+span {
+    color: rgb(206, 255, 255);
+    font-size: medium;
+}
 
+.text {
+    font-size: 16px;
+    border: 1px solid rgb(206, 255, 255);
+    width: 25px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 4px;
+    color: rgb(206, 255, 255);
+    text-shadow: -1px 0 #3abcfe, 0 1px #3abcfe, 1px 0 #3abcfe, 0 -1px #3abcfe;
+}
 
+p {
+    font-size: 16px;
+    margin-top: -15px;
+    margin-left: 4px;
+}
 
+.p-inverso{
+    margin-right: 85%; 
+    margin-top: 4px; 
+    color: #0071d4; 
+    text-shadow:none; 
+    font-size: 17px;
+}
+
+.p-inverso2 {
+    margin-top: 4px; 
+    color: #f3f3f3; 
+    text-shadow: -1px 0 #0071d4, 0 1px #0071d4, 1px 0 #0071d4, 0 -1px #0071d4;
+    font-size: 18px;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 65px;
+    background: #070040;
+    border-radius: 50%;
+    margin-left:1% ;
+}
+
+.circle {
+    fill: none;
+    stroke: #4caf50;
+    stroke-width: 2;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #2e7d32;
+    stroke-width: 2;
+}
+
+.porcentagem {
+    fill: #3abcfe;
+    font-size: 0.2em;
+    text-anchor: middle;
+    text-shadow: none;
+}
+
+.play-link {
+    position: absolute;
+    color: #0071d4;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 15%;
+    text-shadow: none;
+}
+
+.play-link:before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #0071d4;
+}
