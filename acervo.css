@@ -7,3 +7,11 @@ body{
     background-color: pink;
     margin-left: 5%;
 }
+
+.box-video{
+    text-align: center;
+}
+
+.box-video h3{
+    color: #eb0075;
+}
