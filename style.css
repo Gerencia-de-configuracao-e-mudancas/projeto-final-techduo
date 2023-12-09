@@ -83,7 +83,7 @@ nav .menu li a.active {
 .bar {
     width: 95%;
     height: 485px;
-    background-image: url("img/fotobarbie4k.jpg");
+    background-image: url("img/barbie4kazul.png");
     background-size: cover;
     background-position: center;
     margin: 80px auto;
@@ -96,7 +96,7 @@ nav .menu li a.active {
 .texto-na-barra {
     font-family: "Jost", sans-serif;
     color: #ffffff;
-    margin-right: 0%;
+    margin-right: 9%;
     font-size: 35px;
     text-shadow: -1.5px 0 #3abcfe, 0 1.5px #3abcfe, 1.5px 0 #3abcfe, 0 -1.5px #3abcfe;
 }
@@ -124,18 +124,11 @@ p {
 }
 
 .p-inverso{
-    margin-right: 85%; 
+    margin-right: 83%; 
     margin-top: 4px; 
     color: #0071d4; 
     text-shadow:none; 
     font-size: 17px;
-}
-
-.p-inverso2 {
-    margin-top: 4px; 
-    color: #f3f3f3; 
-    text-shadow: -1px 0 #0071d4, 0 1px #0071d4, 1px 0 #0071d4, 0 -1px #0071d4;
-    font-size: 18px;
 }
 
 .circular-chart {
