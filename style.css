@@ -235,3 +235,36 @@ p {
 	border-radius: 0.5rem;
 	background-color: #0098f0;
 }
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 85px;
+}
+
+.info-card {
+    background-color: #ff9dc7;
+    border-radius: 15px;
+    padding: 20px;
+    width: 65%;
+    box-shadow: 0 4px 2px -2px rgb(254, 202, 211);
+}
+
+.info-card:last-child {
+    margin-right: 2%;
+}
+
+.info-card:nth-child(2) {
+    width: 30%;
+}
+
+.info-card h2 {
+    color: #ffffff;
+    text-shadow: -1.5px 0 #f009a2, 0 1.5px #f009a2, 1.5px 0 #f009a2, 0 -1.5px #f009a2;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    color: #004e91;
+    font-size: 18px;
+}
