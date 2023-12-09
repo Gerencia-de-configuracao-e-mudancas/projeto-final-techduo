@@ -28,7 +28,7 @@ Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição
 
 ## Link do Site
 
-[link do site]
+https://gerencia-de-configuracao-e-mudancas.github.io/projeto-final-techduo/
 
 ## Contato
 
