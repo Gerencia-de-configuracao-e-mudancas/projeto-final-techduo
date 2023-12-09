@@ -1,0 +1,36 @@
+body{
+    background-color: pink;
+}
+
+.card{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cardConteiner{
+    text-align: center;
+    background-color: #ffffff;
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+
+.cardConteiner img{
+    width: 100%;
+}
+
+.cardConteiner h3{
+    color: #1199ed;
+}
+
+#tituloPag{
+    font-size: 5rem;
+    margin-left: 50px;
+    color: #ed329f;
+}
