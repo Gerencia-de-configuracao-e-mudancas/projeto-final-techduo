@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+h1{
+	color: #eb0075;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+h2{
+	color: white;
+	text-shadow: -1.5px 0 #eb0075, 0 1.5px #eb0075, 1.5px 0 #eb0075, 0 -1.5px #eb0075;
+}
+
 .content{
     text-align: center;
     margin: 0 auto;
 }
 
 body{
+	font-family: "Playpen Sans", coursive;
     background-color: pink;
     margin-left: 5%;
 }
