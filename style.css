@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: "Playpen Sans", sans-serif;
-    background-color: #fbfbfb;
+    background-color: pink;
 }
 
 nav {
@@ -27,7 +27,7 @@ nav {
     flex-wrap: wrap;
     position: relative;
     z-index: 2;
-    box-shadow: 0 4px 2px -2px rgb(238, 238, 238);
+    box-shadow: 0 4px 2px -2px rgb(254, 202, 211);
 }
 
 nav .logo {
