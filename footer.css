@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.footer-content{
+	display: flex;
+  align-items: center;
+	justify-content: center;
+  background-color: #f21182;
+	text-align: center; 
+}
+
+.footer-content svg {
+	height : 3rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+	padding: 10px;
+}
+
+.footer-copyrigth{
+	background-color: #00b3ff;
+	color: #fff;
+  font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
