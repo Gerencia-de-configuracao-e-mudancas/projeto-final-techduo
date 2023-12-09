@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+	color: #eb0075;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+h2{
+	color: white;
+	text-shadow: -1.5px 0 #eb0075, 0 1.5px #eb0075, 1.5px 0 #eb0075, 0 -1.5px #eb0075;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+h3{
+	margin-top: 2%;
+}
+
+.content{
+    text-align: center;
+    margin: 0 auto;
+	margin-top: 2%;
+}
+
+body{
+	font-family: "Playpen Sans", coursive;
+    background-color: pink;
+    
+}
+
+.box-video{
+    text-align: center;
+}
+
+.box-video h3{
+    color: #eb0075;
+}
+
+.carrossel{
+	display: grid;
+	grid-auto-flow: column;
+	scroll-behavior: auto;
+	gap: 5%;
+	overflow-y: auto;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+	width: 80%;
+	margin-left: 10%;
+}
+.carta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carta img{
+	height: 300px;
+}
+.carrossel iframe{
+	height: 200px;
+}
+
+::-webkit-scrollbar {
+	width: 0.3rem;
+	z-index: 3;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 0.5rem;
+	background-color: #0098f0;
+}
+
+nav {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: #ff9dc7;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px 0 100px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 2px -2px rgb(254, 202, 211);
+}
+
+nav .logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-top: 1%;
+}
+
+nav .menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav .menu li {
+    margin: 0 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-shadow: -1.5px 0 #f009a2, 0 1.5px #f009a2, 1.5px 0 #f009a2, 0 -1.5px #f009a2;
+}
+
+nav .menu li a:hover,
+nav .menu li a.active {
+    border-bottom: none;
+    border-radius: 15px;
+    padding: 5px 30px;
+    background-color: white;
+    color: #f009a2;
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
